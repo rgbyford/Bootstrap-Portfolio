@@ -2,19 +2,19 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: white;
-    width: 240px;
-    height: 50px;
-    line-height: 50px;
-    margin-left: 200px;
-    margin-bottom: 0px;
 }
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
      color: #4aaaa5;
      background-color: #fff;
-     padding-top: 20px;
-     margin-top: 20px;
-     padding-left: 20px;
+}
+.navbar {
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -23,102 +23,41 @@ p {
     margin-left: 10px;
     padding-right: 10px;
 }
-nav {
-    display: flex;
-    float: right;
-    justify-content: space-evenly;
-    width: 300px;
-}
-.navitem:hover {
-    background: yellowgreen;
-    color: #333;
-}
 
-/* The lines dividing content */
-.h_line1 {
-    width:100%;
-    height:1px;
-    background: #000;
-    margin: 0px 0px 0px 0px;
-}
-.h_line2 {
-    width:100%;
-    height:2px;
-   background: #888;
-}
-
-/* to position the content */
-.moveover {
-    background-image: url("../images/oriental.png");
-    background-color: #dddddd;
-    height: calc(100vh - 60px - 50px);  /* subtract footer and header heights */
-}
-.colorwhite {
-    margin-left: 200px;
-    background-color: #fff;
-    margin-right: 200px;
-}
-
-/* for the form on the contact page */
-.form_item {
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-textarea {
-    vertical-align: top;
-    margin-left: 20px;
-    width: 280px;
-    height:150px;
-}
-.bigbluebutton {
+/* for the contact page */
+.btn {
     background-color: #4aaaa5;
-    color: white;
-    width: 100px;
-    height: 30px;
-    margin-bottom: 20px;
 }
 
 /* for the portfolio page */
-table {
-    background-color: #fff;
+.row:first-of-type {
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
 }
-.tblimg {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-}
-.container {
-    position: relative;
+.caption {
     text-align: center;
-    color: white;
-}
-.tbltxt {
     background-color: #4aaaa5;
     color: white;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
     position: absolute;
-    margin-left: 20px;
-    bottom: 40px;
-    text-align: center;
+    width: 200px;
+    top: baseline;
+    margin-top: -40px;
+}
+
+.img-responsive {
+    position: relative;
+    margin-top: 10%;
+    width: 200px;
 }
 
 /* all pages */
-.footerbackground {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+.panel-heading {
     background-color: #4aaaa5;
+    height: 10px;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #666666;
-    color: white;
-    text-align: center;
+.panel {
+    height: 45px;
+    line-height: 40px;
+    vertical-align: center;
 }
