@@ -3,11 +3,13 @@ h1 {
     background-color: #4aaaa5;
     color: white;
 }
+
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-     color: #4aaaa5;
-     background-color: #fff;
+    color: #4aaaa5;
+    background-color: #fff;
 }
+
 .navbar {
     border-top-color: black;
     border-top-style: solid;
@@ -16,25 +18,40 @@ h2 {
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/oriental.png");
+    background-color: #dddddd;
+    height: 100%;
+    padding-bottom: 80px;
 }
+
 p {
     margin-left: 10px;
     padding-right: 10px;
 }
 
 /* for the contact page */
+
+.container {
+/*    position: absolute;*/
+    padding-top: 10px;
+    background-color: white;
+}
+
 .btn {
     background-color: #4aaaa5;
 }
 
 /* for the portfolio page */
+
 .row:first-of-type {
     border-top-color: black;
     border-top-style: solid;
     border-top-width: 1px;
 }
+
 .caption {
     text-align: center;
     background-color: #4aaaa5;
@@ -52,10 +69,12 @@ p {
 }
 
 /* all pages */
+
 .panel-heading {
     background-color: #4aaaa5;
     height: 10px;
 }
+
 .panel {
     height: 45px;
     line-height: 40px;
